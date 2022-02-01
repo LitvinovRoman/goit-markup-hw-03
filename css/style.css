@@ -244,10 +244,26 @@ a {
   justify-content: center;
   margin: 94px 215px;
 
-  width: 1170px;
-  height: 386px;
+  width: 1200px;
+  padding: 0 15px;
 
   cursor: pointer;
+}
+
+.comand {
+  display: flex;
+  width: 1200px;
+  padding: 0 15px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto 94px auto;
+
+  cursor: pointer;
+}
+.thumb-comand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list-one {
@@ -258,12 +274,37 @@ a {
   margin-top: 50px;
 }
 
+.list-comand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
 .item-one:not(:last-child) {
   margin-right: 30px;
 }
+.item-comand:not(:last-child) {
+  margin-right: 30px;
+}
+
+.item-comand {
+  display: block;
+  margin-top: 50px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .two {
+  display: flex;
   background-color: #f5f4fa;
+}
+
+.comand .section-titel {
+  margin-top: 94px;
 }
 
 .section-titel {
@@ -279,6 +320,8 @@ a {
 }
 
 .standart-title {
+  padding-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -286,6 +329,8 @@ a {
   color: var(--title-text-color);
 }
 .standart-text {
+  padding-top: 10px;
+  padding-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -296,7 +341,7 @@ a {
 .foot {
   display: flex;
   justify-content: flex-start;
-  margin: 60px 1240px 161px 215px;
+  margin: ;
 }
 
 .footer.logo-link {
@@ -339,7 +384,7 @@ a {
 }
 
 .footer {
-  margin-top: 94px;
+  margin-top: ;
   background: #2f303a;
   text-decoration: none;
 }
@@ -387,17 +432,7 @@ a {
 .item-two {
   flex-basis: calc(100% / 3-30px);
 }
-/*
-.item-two:nth-child(3n) {
-  margin-right: 0;
-}
-.item-two:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-.item-two:nth-last-child(n + 3) {
-  margin-top: 0;
-}
-*/
+
 .list-pfo .standart-title {
   font-weight: bold;
   font-size: 18px;
