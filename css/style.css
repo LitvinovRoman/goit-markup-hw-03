@@ -349,6 +349,9 @@ a {
 }
 
 .footer .logo-link {
+  display: block;
+  align-items: flex-start;
+  justify-content: center;
   padding-bottom: 20px;
 
   font-family: Raleway, sans-serif;
