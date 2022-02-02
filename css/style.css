@@ -339,8 +339,6 @@ a {
 
 /* подвал*/
 .footer {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   padding: 60px 1154px 60px 215px;
 }
@@ -350,8 +348,6 @@ a {
 
 .footer .logo-link {
   display: block;
-  align-items: flex-start;
-  justify-content: center;
   padding-bottom: 20px;
 
   font-family: Raleway, sans-serif;
