@@ -342,15 +342,11 @@ a {
   flex-direction: column;
   padding: 60px 1154px 60px 215px;
 }
-
 .footer .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-}
-.address {
-  display: flex;
+  
 }
 
 .footer .logo-link {
@@ -364,14 +360,14 @@ a {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.footerfooter.logo-link-one {
+.footer .logo-link-one {
   color: #212121;
 }
 .logo-link-two {
   color: #ffffff;
 }
 
-.footer-list {
+.footer-list { 
   font-family: Robto, sans-serif;
   font-style: normal;
 }
