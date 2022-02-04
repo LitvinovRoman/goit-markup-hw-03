@@ -254,28 +254,32 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 59px 30px 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .thumb-comand-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 61px 30px 62px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .thumb-comand-three {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 66px 30px 67px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 .thumb-comand-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 68px 30px 68px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 .list-one {
