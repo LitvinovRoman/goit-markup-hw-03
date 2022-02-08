@@ -61,7 +61,6 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 94px;
 }
 .navigation-list {
   display: flex;
@@ -320,7 +319,8 @@ a {
 
 .two {
   flex-direction: column;
-  margin-bottom: 94px;
+ padding-bottom: 94px;
+ padding-top: 94px;
   background: #F5F4FA
 }
 
@@ -413,6 +413,11 @@ a {
 }
 
 /* 2 портфолио */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   opacity: 0;
 position: absolute;
