@@ -137,6 +137,7 @@ a {
 }
 
 .header-text {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -155,17 +156,9 @@ a {
   color: #757575;
 }
 
-.header-contact:not(:first-child) {
-  margin-right: 30px;
-}
-
 /* герой*/
 
-.hero .container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -182,9 +175,11 @@ a {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   text-align: center;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   padding: 10px 32px 10px 32px;
 
@@ -221,6 +216,7 @@ a {
 
 .after-hero {
 padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .after-title {
@@ -246,16 +242,12 @@ padding-top: 94px;
   display: flex;
     align-items: center;
     flex-direction: column;  
+     padding-bottom: 94px;
   }
 .nasha .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.chem {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .nasha {
@@ -326,6 +318,9 @@ margin-top: 10px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.address {
+ margin-top: 20px;
+}
 
 .footer .logo-link {
   display: block;
@@ -345,7 +340,6 @@ margin-top: 10px;
 }
 
 .footer-list {
-  margin-top: 20px;
   font-family: Robto, sans-serif;
   font-style: normal;
 }
@@ -438,7 +432,7 @@ padding: 20px 24px;
 .list-pfo-btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   color: var(--title-text-color);
 }
